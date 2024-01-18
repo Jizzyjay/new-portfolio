@@ -140,10 +140,11 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
+        // "service_tox7kqs",
+        "service_v2qzz9t",
+        "template_suf4uc2",
+        // form.current,
+        // "SybVGsYS52j2TfLbi"
       )
       .then(
         (result) => {
