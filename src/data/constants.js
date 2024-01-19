@@ -160,19 +160,19 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "Amazone-clone",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://res.cloudinary.com/dpuumfztf/image/upload/v1704280984/amazon_ybdijo.jpg",
-    tags: ["NextJs", "Typescript", "Tailwind", "NextAuth", "Stripe"],
-    category: "web app",
-    github: "https://github.com/Jizzyjay/amazon-clone",
-    webapp:
-      "https://amazon-clone-psi-sooty.vercel.app/?vercelToolbarCode=eiNnUrnW_RtrvXG",
-  },
+  // {
+  //   id: 1,
+  //   title: "Amazone-clone",
+  //   description:
+  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+  //   image:
+  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704280984/amazon_ybdijo.jpg",
+  //   tags: ["NextJs", "Typescript", "Tailwind", "NextAuth", "Stripe"],
+  //   category: "web app",
+  //   github: "https://github.com/Jizzyjay/amazon-clone",
+  //   webapp:
+  //     "https://amazon-clone-psi-sooty.vercel.app/?vercelToolbarCode=eiNnUrnW_RtrvXG",
+  // },
   {
     id: 2,
     title: "Gallery",
