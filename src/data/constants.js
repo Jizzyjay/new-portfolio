@@ -173,6 +173,17 @@ export const projects = [
   //   webapp:
   //     "https://amazon-clone-psi-sooty.vercel.app/?vercelToolbarCode=eiNnUrnW_RtrvXG",
   // },
+    {
+    id: 8,
+    title: "Threads-clone",
+    description: "Threads Clone with with Next JS 13. Post threads and see what other users are up to.",
+    image:
+      "https://res.cloudinary.com/dpuumfztf/image/upload/v1707134693/Untitled_2_jk0gsb.jpg",
+    tags: ["Next Js", "Tailwind", "Typescript", "MongoDb", "Clerk", "UploadThing"],
+    // category: "web app",
+    github: "https://github.com/Jizzyjay/thread",
+    webapp: "https://thread-sigma-orpin.vercel.app/",
+  },
   {
     id: 2,
     title: "Gallery",
@@ -184,18 +195,18 @@ export const projects = [
     github: "https://github.com/Jizzyjay/Gallery",
     webapp: "https://gallery-ten-indol.vercel.app/",
   },
-  {
-    id: 0,
-    title: "Tiktok-clone",
-    description:
-      "TikTok Clone with with Next JS 13. Upload videos and see videos other users uploaded too.",
-    image:
-      "https://res.cloudinary.com/dpuumfztf/image/upload/v1704280881/tiktok_vmnat6.jpg ",
-    tags: ["NextJs", "Typescript", "Tailwind", "Zustand", "Appwrite"],
-    // category: "web app",
-    github: "https://github.com/Jizzyjay/tiktok-clone",
-    webapp: "https://tiktok-clone-six-olive.vercel.app/",
-  },
+  // {
+  //   id: 0,
+  //   title: "Tiktok-clone",
+  //   description:
+  //     "TikTok Clone with with Next JS 13. Upload videos and see videos other users uploaded too.",
+  //   image:
+  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704280881/tiktok_vmnat6.jpg ",
+  //   tags: ["NextJs", "Typescript", "Tailwind", "Zustand", "Appwrite"],
+  //   // category: "web app",
+  //   github: "https://github.com/Jizzyjay/tiktok-clone",
+  //   webapp: "https://tiktok-clone-six-olive.vercel.app/",
+  // },
   {
     id: 3,
     title: "Movix",
