@@ -195,6 +195,17 @@ export const projects = [
     github: "https://github.com/Jizzyjay/Gallery",
     webapp: "https://gallery-ten-indol.vercel.app/",
   },
+  {
+    id: 9,
+    title: "Figma-clone",
+    description: "Figma clone with features like live collaboration through cursor chat, comments, reactions, and drawing designs.",
+    image:
+      "https://res.cloudinary.com/dpuumfztf/image/upload/v1707808209/Untitled_2_f14nju.jpg",
+    tags: ["NextJs", "Typescript", "Tailwind", "Fabricjs", "Liveblocks"],
+    category: "web app",
+    github: "https://github.com/Jizzyjay/figma-clone",
+    webapp: "https://figma-clone-opal.vercel.app/",
+  },
   // {
   //   id: 0,
   //   title: "Tiktok-clone",
