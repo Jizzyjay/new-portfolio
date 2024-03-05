@@ -176,7 +176,7 @@ export const projects = [
       {
     id: 10,
     title: "Chat app",
-    description: "Threads Clone with with Next JS 13. Post threads and see what other users are up to.",
+    description: "Realtime Chat App with MERN Stack. You can chat and search other users on the platform.",
     image:
       "https://res.cloudinary.com/dpuumfztf/image/upload/v1709642896/Untitled_2_ktng7f.jpg",
     tags: ["React", "Tailwind", "Typescript", "MongoDb", "Zustard", "Socket.io"],
