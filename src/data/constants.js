@@ -173,6 +173,17 @@ export const projects = [
   //   webapp:
   //     "https://amazon-clone-psi-sooty.vercel.app/?vercelToolbarCode=eiNnUrnW_RtrvXG",
   // },
+      {
+    id: 10,
+    title: "Chat app",
+    description: "Threads Clone with with Next JS 13. Post threads and see what other users are up to.",
+    image:
+      "https://res.cloudinary.com/dpuumfztf/image/upload/v1709642896/Untitled_2_ktng7f.jpg",
+    tags: ["React", "Tailwind", "Typescript", "MongoDb", "Zustard", "Socket.io"],
+    // category: "web app",
+    github: "https://github.com/Jizzyjay/chat",
+    webapp: "https://chat-3kbt.onrender.com/",
+  },
     {
     id: 8,
     title: "Threads-clone",
