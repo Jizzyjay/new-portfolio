@@ -281,8 +281,8 @@ export const projects = [
       "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281791/dash_qfl3yz.jpg",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     // category: "web app",
-    github: "https://github.com/Jizzyjay/Dashboard",
-    webapp: "https://kaleidoscopic-maamoul-de0768.netlify.app/",
+    github: "https://github.com/Jizzyjay/react-dashboard",
+    webapp: "https://react-dashboard-sepia.vercel.app/dashboard",
   },
 ];
 
