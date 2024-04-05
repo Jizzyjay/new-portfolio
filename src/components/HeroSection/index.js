@@ -12,11 +12,15 @@ import {
   SubTitle,
   ResumeButton,
 } from "./HeroStyle";
-// import HeroImg from "../../images/john.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
+import ResumePDF from "../../assets/Resume.pdf";
 
 const HeroSection = () => {
+  const handleResumeClick = () => {
+    window.open(ResumePDF, "_blank");
+  };
+
   return (
     <div id="about">
       <HeroContainer>
@@ -41,7 +45,7 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display">
+            <ResumeButton onClick={handleResumeClick}>
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>

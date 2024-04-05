@@ -6,7 +6,8 @@ export const Bio = {
   github: "https://github.com/Jizzyjay",
   resume:
     // "https://docs.google.com/document/d/1l0HEKVx2k-Z7q9U_dyviOEmFLJKS5_TdNamJpEkQeC4/edit?usp=sharing",
-    "https://www.canva.com/design/DAFtjn7npzw/yLHRrIG0XPvridjFTWa9aw/edit?utm_content=DAFtjn7npzw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    // "https://www.canva.com/design/DAFtjn7npzw/yLHRrIG0XPvridjFTWa9aw/edit?utm_content=DAFtjn7npzw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "../assets/Resume.pdf",
   linkedin: "https://www.linkedin.com/in/ekunolajohn/",
   mail: "mailto:ekunolajohn@gmail.com"
   // twitter: "",
