@@ -192,7 +192,7 @@ export const projects = [
     tags: ["Vite", "Tailwind", "Javascript", "MongoDb", "Passport", "github-oauth"],
     // category: "web app",
     github: "https://github.com/Jizzyjay/git-clone",
-    webapp: "https://chat-3kbt.onrender.com/",
+    webapp: "https://git-clone-3mks.onrender.com/",
   },
   {
     id: 4,
