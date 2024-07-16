@@ -7,9 +7,10 @@ export const Bio = {
   resume:
     // "https://docs.google.com/document/d/1l0HEKVx2k-Z7q9U_dyviOEmFLJKS5_TdNamJpEkQeC4/edit?usp=sharing",
     // "https://www.canva.com/design/DAFtjn7npzw/yLHRrIG0XPvridjFTWa9aw/edit?utm_content=DAFtjn7npzw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-    "../assets/Resume.pdf",
+    // "../assets/Resume.pdf",
+    "https://ekunolajohn.hackerresume.io/f787c7f7-8292-45ad-8417-913c53739ac6",
   linkedin: "https://www.linkedin.com/in/ekunolajohn/",
-  mail: "mailto:ekunolajohn@gmail.com"
+  mail: "mailto:ekunolajohn@gmail.com",
   // twitter: "",
   // insta: "",
   // facebook: "",
@@ -161,38 +162,86 @@ export const education = [
 ];
 
 export const projects = [
-      {
+  {
     id: 1,
     title: "Chat app",
-    description: "Realtime Chat App with MERN Stack. You can chat and search other users on the platform.",
+    description:
+      "Realtime Chat App with MERN Stack. You can chat and search other users on the platform.",
     image:
       "https://res.cloudinary.com/dpuumfztf/image/upload/v1709642896/Untitled_2_ktng7f.jpg",
-    tags: ["React", "Tailwind", "Typescript", "MongoDb", "Zustard", "Socket.io"],
+    tags: [
+      "React",
+      "Tailwind",
+      "Typescript",
+      "MongoDb",
+      "Zustard",
+      "Socket.io",
+    ],
     // category: "web app",
     github: "https://github.com/Jizzyjay/chat",
     webapp: "https://chat-3kbt.onrender.com/",
   },
-    {
+  {
     id: 2,
     title: "Threads-clone",
-    description: "Threads Clone with with Next JS 13. Post threads and see what other users are up to.",
+    description:
+      "Threads Clone with with Next JS 13. Post threads and see what other users are up to.",
     image:
       "https://res.cloudinary.com/dpuumfztf/image/upload/v1707134693/Untitled_2_jk0gsb.jpg",
-    tags: ["Next Js", "Tailwind", "Typescript", "MongoDb", "Clerk", "UploadThing"],
+    tags: [
+      "Next Js",
+      "Tailwind",
+      "Typescript",
+      "MongoDb",
+      "Clerk",
+      "UploadThing",
+    ],
     // category: "web app",
     github: "https://github.com/Jizzyjay/thread",
     webapp: "https://thread-sigma-orpin.vercel.app/",
   },
-   {
+  {
     id: 3,
     title: "Github-clone",
-    description: "This is a github-clone app, where you can like, clone a repository and also search for a github user.",
+    description:
+      "This is a github-clone app, where you can like, clone a repository and also search for a github user.",
     image:
       "https://res.cloudinary.com/dpuumfztf/image/upload/v1711472808/Untitled_2_yqczhq.jpg",
-    tags: ["Vite", "Tailwind", "Javascript", "MongoDb", "Passport", "github-oauth"],
+    tags: [
+      "Vite",
+      "Tailwind",
+      "Javascript",
+      "MongoDb",
+      "Passport",
+      "github-oauth",
+    ],
     // category: "web app",
     github: "https://github.com/Jizzyjay/git-clone",
     webapp: "https://git-clone-3mks.onrender.com/",
+  },
+  {
+    id: 13,
+    title: "CarePulse",
+    description:
+      "A healthcare patient management System designed to streamline patient registration, appointment scheduling, and medical records management for healthcare providers.",
+    image:
+      "https://res.cloudinary.com/dpuumfztf/image/upload/v1721125529/health_vmeaa4.jpg",
+    tags: ["NextJs", "Typescript", "Tailwind", "Appwrite", "Twilio", "Sentry"],
+    // category: "machine learning",
+    github: "https://github.com/Jizzyjay/health-app",
+    webapp: "https://health-app-gamma-six.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Figma-clone",
+    description:
+      "Figma clone with features like live collaboration through cursor chat, comments, reactions, and drawing designs.",
+    image:
+      "https://res.cloudinary.com/dpuumfztf/image/upload/v1707808209/Untitled_2_f14nju.jpg",
+    tags: ["NextJs", "Typescript", "Tailwind", "Fabricjs", "Liveblocks"],
+    category: "web app",
+    github: "https://github.com/Jizzyjay/figma-clone",
+    webapp: "https://figma-clone-opal.vercel.app/",
   },
   {
     id: 4,
@@ -205,71 +254,62 @@ export const projects = [
     github: "https://github.com/Jizzyjay/Gallery",
     webapp: "https://gallery-ten-indol.vercel.app/",
   },
-  {
-    id: 5,
-    title: "Figma-clone",
-    description: "Figma clone with features like live collaboration through cursor chat, comments, reactions, and drawing designs.",
-    image:
-      "https://res.cloudinary.com/dpuumfztf/image/upload/v1707808209/Untitled_2_f14nju.jpg",
-    tags: ["NextJs", "Typescript", "Tailwind", "Fabricjs", "Liveblocks"],
-    category: "web app",
-    github: "https://github.com/Jizzyjay/figma-clone",
-    webapp: "https://figma-clone-opal.vercel.app/",
-  },{
-    id: 6,
-    title: "Movix",
-    description:
-      "Movix is a personalized movie and TV show recommendation web application that provides users with what to watch with features like bookmark and recommended movies. The platform aims to help users discover their next favorite watch and make informed choices based on their preferences and interests.",
-    image:
-      "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281771/movix_filrj2.jpg",
-    tags: ["NextJs", "Typescript", "Tailwind"],
-    // category: "machine learning",
-    github: "https://github.com/Jizzyjay/movix",
-    webapp: "https://movix-nine-swart.vercel.app/",
-  },
-  {
-    id: 7,
-    title: "Fudo",
-    description: "This app was built using next JS and is hosted on Vercel. Users  are able to search for certain food and it calories. User authentication is available so you can signup and signin to your account with an email address in order to buy your favorite food.",
-    image:
-      "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281857/fudo_ndfqgj.png",
-    tags: ["React", "Javascript", "Firebase", "Tailwind"],
-    github: "https://github.com/Jizzyjay/Fudo",
-    webapp: "https://sunny-chebakia-420a7b.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "House-Search",
-    description:
-      "House Search, search price and locations of different apartment.",
-    image:
-      "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281893/real_glege1.png",
-    tags: ["React", "JavaScript", "Typescript"],
-    // category: "android app",
-    github: "https://github.com/Jizzyjay/house-search",
-    webapp: "https://famous-starlight-5b999d.netlify.app/",
-  },
-  {
-    id: 9,
-    title: "Roboapp",
-    description: "Roboapp is a robot app, where robots are generated with an API.",
-    image: "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281816/roboapp_sjncca.png",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    // category: "web app",
-    github: "https://github.com/Jizzyjay/roboapp",
-    webapp: "https://whatsapp-clone-John.web.app",
-  },
-  {
-    id: 10,
-    title: "Dashboard",
-    description: "",
-    image:
-      "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281791/dash_qfl3yz.jpg",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    // category: "web app",
-    github: "https://github.com/Jizzyjay/react-dashboard",
-    webapp: "https://react-dashboard-sepia.vercel.app/dashboard",
-  },
+  
+  // {
+  //   id: 6,
+  //   title: "Movix",
+  //   description:
+  //     "Movix is a personalized movie and TV show recommendation web application that provides users with what to watch with features like bookmark and recommended movies. The platform aims to help users discover their next favorite watch and make informed choices based on their preferences and interests.",
+  //   image:
+  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281771/movix_filrj2.jpg",
+  //   tags: ["NextJs", "Typescript", "Tailwind"],
+  //   // category: "machine learning",
+  //   github: "https://github.com/Jizzyjay/movix",
+  //   webapp: "https://movix-nine-swart.vercel.app/",
+  // },
+  // {
+  //   id: 7,
+  //   title: "Fudo",
+  //   description: "This app was built using next JS and is hosted on Vercel. Users  are able to search for certain food and it calories. User authentication is available so you can signup and signin to your account with an email address in order to buy your favorite food.",
+  //   image:
+  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281857/fudo_ndfqgj.png",
+  //   tags: ["React", "Javascript", "Firebase", "Tailwind"],
+  //   github: "https://github.com/Jizzyjay/Fudo",
+  //   webapp: "https://sunny-chebakia-420a7b.netlify.app/",
+  // },
+  // {
+  //   id: 8,
+  //   title: "House-Search",
+  //   description:
+  //     "House Search, search price and locations of different apartment.",
+  //   image:
+  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281893/real_glege1.png",
+  //   tags: ["React", "JavaScript", "Typescript"],
+  //   // category: "android app",
+  //   github: "https://github.com/Jizzyjay/house-search",
+  //   webapp: "https://famous-starlight-5b999d.netlify.app/",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Roboapp",
+  //   description: "Roboapp is a robot app, where robots are generated with an API.",
+  //   image: "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281816/roboapp_sjncca.png",
+  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+  //   // category: "web app",
+  //   github: "https://github.com/Jizzyjay/roboapp",
+  //   webapp: "https://whatsapp-clone-John.web.app",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Dashboard",
+  //   description: "",
+  //   image:
+  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281791/dash_qfl3yz.jpg",
+  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+  //   // category: "web app",
+  //   github: "https://github.com/Jizzyjay/react-dashboard",
+  //   webapp: "https://react-dashboard-sepia.vercel.app/dashboard",
+  // },
   // {
   //   id: 0,
   //   title: "Tiktok-clone",
@@ -282,7 +322,7 @@ export const projects = [
   //   github: "https://github.com/Jizzyjay/tiktok-clone",
   //   webapp: "https://tiktok-clone-six-olive.vercel.app/",
   // },
-    // {
+  // {
   //   id: 1,
   //   title: "Amazone-clone",
   //   description:

@@ -14,12 +14,12 @@ import {
 } from "./HeroStyle";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
-import ResumePDF from "../../assets/Resume.pdf";
+// import ResumePDF from "../../assets/Resume.pdf";
 
 const HeroSection = () => {
-  const handleResumeClick = () => {
-    window.open(ResumePDF, "_blank");
-  };
+  // const handleResumeClick = () => {
+  //   window.open(ResumePDF, "_blank");
+  // };
 
   return (
     <div id="about">
@@ -45,7 +45,9 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton onClick={handleResumeClick}>
+            <ResumeButton href={Bio.resume} target="display"
+            // onClick={handleResumeClick}
+            >
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>
