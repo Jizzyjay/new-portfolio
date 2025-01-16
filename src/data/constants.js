@@ -2,7 +2,7 @@ export const Bio = {
   name: "John Ekunola",
   roles: ["Frontend Developer"],
   description:
-    "I am an innovative and highly motivated front-end developer with proven skills in software development, technical writing, and leadership. I am passionate about problem-solving with code and constantly strive to improve my skills.",
+    "I'm a results-driven Software Engineer with a strong track record of building high-quality web and mobile applications. I take a comprehensive approach to development, actively engaging in every stage—from planning and design to deployment and optimization. With expertise in HTML, CSS, JavaScript, TypeScript, React.js, Firebase, Tailwind CSS, and GitHub, I thrive in collaborative environments, writing clean, efficient code to drive innovation and solve complex problems.",
   github: "https://github.com/Jizzyjay",
   resume:
     "https://www.canva.com/design/DAGcTOlxU44/DPhZHwJQdAOeTwNMpQRwnA/view?utm_content=DAGcTOlxU44&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h38f0cce985",
@@ -250,7 +250,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Jizzyjay/Gallery",
     webapp: "https://gallery-ten-indol.vercel.app/",
-  }
+  },
 ];
 
 export const TimeLineData = [
