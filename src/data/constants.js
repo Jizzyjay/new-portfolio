@@ -5,10 +5,7 @@ export const Bio = {
     "I am an innovative and highly motivated front-end developer with proven skills in software development, technical writing, and leadership. I am passionate about problem-solving with code and constantly strive to improve my skills.",
   github: "https://github.com/Jizzyjay",
   resume:
-    // "https://docs.google.com/document/d/1l0HEKVx2k-Z7q9U_dyviOEmFLJKS5_TdNamJpEkQeC4/edit?usp=sharing",
-    // "https://www.canva.com/design/DAFtjn7npzw/yLHRrIG0XPvridjFTWa9aw/edit?utm_content=DAFtjn7npzw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-    // "../assets/Resume.pdf",
-    "https://ekunolajohn.hackerresume.io/f787c7f7-8292-45ad-8417-913c53739ac6",
+    "https://www.canva.com/design/DAGcTOlxU44/DPhZHwJQdAOeTwNMpQRwnA/view?utm_content=DAGcTOlxU44&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h38f0cce985",
   linkedin: "https://www.linkedin.com/in/ekunolajohn/",
   mail: "mailto:ekunolajohn@gmail.com",
   // twitter: "",
@@ -253,88 +250,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/Jizzyjay/Gallery",
     webapp: "https://gallery-ten-indol.vercel.app/",
-  },
-  
-  // {
-  //   id: 6,
-  //   title: "Movix",
-  //   description:
-  //     "Movix is a personalized movie and TV show recommendation web application that provides users with what to watch with features like bookmark and recommended movies. The platform aims to help users discover their next favorite watch and make informed choices based on their preferences and interests.",
-  //   image:
-  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281771/movix_filrj2.jpg",
-  //   tags: ["NextJs", "Typescript", "Tailwind"],
-  //   // category: "machine learning",
-  //   github: "https://github.com/Jizzyjay/movix",
-  //   webapp: "https://movix-nine-swart.vercel.app/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Fudo",
-  //   description: "This app was built using next JS and is hosted on Vercel. Users  are able to search for certain food and it calories. User authentication is available so you can signup and signin to your account with an email address in order to buy your favorite food.",
-  //   image:
-  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281857/fudo_ndfqgj.png",
-  //   tags: ["React", "Javascript", "Firebase", "Tailwind"],
-  //   github: "https://github.com/Jizzyjay/Fudo",
-  //   webapp: "https://sunny-chebakia-420a7b.netlify.app/",
-  // },
-  // {
-  //   id: 8,
-  //   title: "House-Search",
-  //   description:
-  //     "House Search, search price and locations of different apartment.",
-  //   image:
-  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281893/real_glege1.png",
-  //   tags: ["React", "JavaScript", "Typescript"],
-  //   // category: "android app",
-  //   github: "https://github.com/Jizzyjay/house-search",
-  //   webapp: "https://famous-starlight-5b999d.netlify.app/",
-  // },
-  // {
-  //   id: 9,
-  //   title: "Roboapp",
-  //   description: "Roboapp is a robot app, where robots are generated with an API.",
-  //   image: "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281816/roboapp_sjncca.png",
-  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-  //   // category: "web app",
-  //   github: "https://github.com/Jizzyjay/roboapp",
-  //   webapp: "https://whatsapp-clone-John.web.app",
-  // },
-  // {
-  //   id: 10,
-  //   title: "Dashboard",
-  //   description: "",
-  //   image:
-  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704281791/dash_qfl3yz.jpg",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   // category: "web app",
-  //   github: "https://github.com/Jizzyjay/react-dashboard",
-  //   webapp: "https://react-dashboard-sepia.vercel.app/dashboard",
-  // },
-  // {
-  //   id: 0,
-  //   title: "Tiktok-clone",
-  //   description:
-  //     "TikTok Clone with with Next JS 13. Upload videos and see videos other users uploaded too.",
-  //   image:
-  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704280881/tiktok_vmnat6.jpg ",
-  //   tags: ["NextJs", "Typescript", "Tailwind", "Zustand", "Appwrite"],
-  //   // category: "web app",
-  //   github: "https://github.com/Jizzyjay/tiktok-clone",
-  //   webapp: "https://tiktok-clone-six-olive.vercel.app/",
-  // },
-  // {
-  //   id: 1,
-  //   title: "Amazone-clone",
-  //   description:
-  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-  //   image:
-  //     "https://res.cloudinary.com/dpuumfztf/image/upload/v1704280984/amazon_ybdijo.jpg",
-  //   tags: ["NextJs", "Typescript", "Tailwind", "NextAuth", "Stripe"],
-  //   category: "web app",
-  //   github: "https://github.com/Jizzyjay/amazon-clone",
-  //   webapp:
-  //     "https://amazon-clone-psi-sooty.vercel.app/?vercelToolbarCode=eiNnUrnW_RtrvXG",
-  // },
+  }
 ];
 
 export const TimeLineData = [
