@@ -54,9 +54,11 @@ const Desc = styled.div`
   text-align: center;
   max-width: 600px;
   color: ${({ theme }) => theme.text_secondary};
+  padding: 0 8px;
   @media (max-width: 768px) {
     margin-top: 12px;
     font-size: 16px;
+    padding: 0 12px;
   }
 `;
 
@@ -95,9 +97,12 @@ const index = () => {
           educational details are as follows.
         </Desc>
         <TimelineSection>
-          <Timeline>
+          <Timeline align="alternate">
             {education.map((item, index) => (
-              <TimelineItem key={item.id || `${item.school}-${index}`}>
+              <TimelineItem
+                key={item.id || `${item.school}-${index}`}
+                sx={{ "&:before": { display: "none" } }}
+              >
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <EducationCard education={item} />
                 </TimelineContent>
