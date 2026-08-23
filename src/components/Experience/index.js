@@ -69,6 +69,20 @@ const TimelineSection = styled.div`
   align-items: center;
   justify-content: center;
   gap: 12px;
+
+  .MuiTimeline-root {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .MuiTimelineItem-root {
+    width: 100%;
+  }
+
+  .MuiTimelineContent-root {
+    width: 100%;
+    overflow: hidden;
+  }
 `;
 
 const index = () => {
@@ -81,9 +95,12 @@ const index = () => {
           companies and projects.
         </Desc>
         <TimelineSection>
-          <Timeline>
+          <Timeline align="alternate">
             {experiences.map((experience, index) => (
-              <TimelineItem>
+              <TimelineItem
+                key={experience.id || `${experience.company}-${index}`}
+                sx={{ "&:before": { display: "none" } }}
+              >
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   {index !== experiences.length - 1 && (

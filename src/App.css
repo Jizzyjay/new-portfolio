@@ -1,10 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  color-scheme: dark;
+  --bg: #050816;
+  --bg-soft: #0f172a;
+  --card: rgba(15, 23, 42, 0.78);
+  --border: rgba(148, 163, 184, 0.14);
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --primary: #8b5cf6;
+  --secondary: #22d3ee;
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", "Poppins", sans-serif;
 }
 
 html {
@@ -12,29 +24,54 @@ html {
 }
 
 body {
-  margin: 0px !important;
+  margin: 0 !important;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Inter", "Poppins", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(139, 92, 246, 0.26), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(34, 211, 238, 0.18), transparent 22%),
+    #050816;
+  color: var(--text);
+  line-height: 1.6;
 }
 
-/* width */
+#root {
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.35);
+  color: #fff;
+}
+
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 10px;
   height: 80px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  background: #222a35;
+  background: rgba(15, 23, 42, 0.8);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #575c66;
-  border-radius: 6px;
+  background: linear-gradient(180deg, #8b5cf6, #22d3ee);
+  border-radius: 999px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #626970;
+  background: linear-gradient(180deg, #a78bfa, #67e8f9);
 }

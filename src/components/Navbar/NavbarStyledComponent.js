@@ -1,30 +1,34 @@
 import { Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
-import _default from "../../themes/default";
 
 export const Nav = styled.div`
-  background-color: ${({ theme }) => theme.card_light};
-  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 80px;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.2);
   font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+
   @media (max-width: 960px) {
-    trastion: 0.8s all ease;
+    transition: all 0.8s ease;
   }
 `;
+
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
-  z-index: 1;
   width: 100%;
-  padding: 0 24px;
   max-width: 1200px;
+  height: 60px;
+  padding: 0 24px;
+  z-index: 1;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -34,15 +38,19 @@ export const NavLogo = styled(LinkR)`
   justify-content: start;
   align-items: center;
   text-decoration: none;
+
   @media (max-width: 640px) {
-    padding: 0 0px;
+    padding: 0;
   }
 `;
+
 export const Span = styled.div`
   padding: 0 4px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
+  color: ${({ theme }) => theme.text_primary};
 `;
+
 export const NavItems = styled.ul`
   width: 100%;
   display: flex;
@@ -58,38 +66,62 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
-  color: ${({ theme }) => theme.text_primary};
+  color: ${({ theme }) => theme.text_secondary};
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
-    color: ${({ theme }) => theme.primary};
+  position: relative;
+
+  &:hover {
+    color: ${({ theme }) => theme.primary_alt};
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 2px;
+    background: ${({ theme }) => theme.primary_alt};
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease;
+  }
+
+  &:hover::after,
+  &.active::after {
+    transform: scaleX(1);
   }
 
   &.active {
-    border-bottom: 2px solid ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.primary_alt};
   }
 `;
 
 export const GitHubButton = styled.a`
-  border: 1.8px solid ${({ theme }) => theme.primary};
-  justify-content: center;
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 70%;
-  border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid rgba(139, 92, 246, 0.6);
+  color: ${({ theme }) => theme.white};
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.22), rgba(34, 211, 238, 0.12));
   cursor: pointer;
   padding: 0 20px;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
-  font-size: 16px;
-  transition: all 0.6s ease-in-out;
-  :hover {
-    background: ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.white};
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 25px rgba(139, 92, 246, 0.26);
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.86), rgba(34, 211, 238, 0.42));
   }
+
   @media screen and (max-width: 768px) {
     font-size: 14px;
   }
@@ -102,6 +134,7 @@ export const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
+
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -109,6 +142,7 @@ export const ButtonContainer = styled.div`
 
 export const MobileIcon = styled.div`
   display: none;
+
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
@@ -131,12 +165,13 @@ export const MobileMenu = styled.div`
   right: 0;
   width: 100%;
   padding: 12px 40px 24px 40px;
-  background: ${({ theme }) => theme.card_light + 99};
+  background: rgba(15, 23, 42, 0.96);
+  backdrop-filter: blur(18px);
   transition: all 0.6s ease-in-out;
   transform: ${({ isOpen }) =>
-    isOpen ? "translateY(0)" : "translateY(-100%)"};
+    isOpen ? "translateY(0)" : "translateY(-120%)"};
   border-radius: 0 0 20px 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.35);
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
@@ -158,7 +193,8 @@ export const MobileMenuLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
@@ -182,7 +218,7 @@ export const MobileMenuButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
 
-  :hover {
+  &:hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
@@ -194,7 +230,8 @@ export const MobileLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
@@ -210,7 +247,8 @@ export const MobileNavLogo = styled(LinkR)`
   justify-content: start;
   align-items: center;
   text-decoration: none;
+
   @media (max-width: 640px) {
-    padding: 0 0px;
+    padding: 0;
   }
 `;

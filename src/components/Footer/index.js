@@ -105,7 +105,7 @@ function Footer() {
         <SocialMediaIcon href={Bio.mail} target="display">
           <MailIcon />
         </SocialMediaIcon>
-        <Copyright>&copy; 2023 John Ekunola. All rights reserved.</Copyright>
+        <Copyright>&copy; 2026 John Ekunola. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

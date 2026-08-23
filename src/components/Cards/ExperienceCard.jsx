@@ -1,18 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const Document = styled.img`
-  display: none;
-  height: 70px;
-  width: fit-content;
-  background-color: #000;
-  border-radius: 10px;
-  &:hover {
-    cursor: pointer;
-    opacity: 0.8;
-  }
-`;
-
 const Description = styled.div`
   width: 100%;
   font-size: 15px;
@@ -34,7 +22,8 @@ const Span = styled.span`
 `;
 
 const Card = styled.div`
-  width: 650px;
+  width: min(100%, 650px);
+  max-width: 100%;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 12px 16px;
@@ -52,11 +41,7 @@ const Card = styled.div`
   @media only screen and (max-width: 768px) {
     padding: 10px;
     gap: 8px;
-    width: 300px;
-  }
-
-  &:hover ${Document} {
-    display: flex;
+    width: min(100vw - 28px, 100%);
   }
 
   &:hover ${Span} {
@@ -72,16 +57,6 @@ const Top = styled.div`
   width: 100%;
   display: flex;
   gap: 12px;
-`;
-
-const Image = styled.img`
-  height: 50px;
-  background-color: #000;
-  border-radius: 10px;
-  margin-top: 4px;
-  @media only screen and (max-width: 768px) {
-    height: 40px;
-  }
 `;
 
 const Body = styled.div`
@@ -143,7 +118,6 @@ const ExperienceCard = ({ experience }) => {
   return (
     <Card>
       <Top>
-        <Image src={experience.img} />
         <Body>
           <Role>{experience.role}</Role>
           <Company>{experience.company}</Company>

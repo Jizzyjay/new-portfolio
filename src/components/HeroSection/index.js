@@ -11,16 +11,22 @@ import {
   Span,
   SubTitle,
   ResumeButton,
+  SecondaryButton,
+  CTAGroup,
+  RightPanel,
+  PanelTop,
+  StatusBadge,
+  MiniCard,
+  MetricRow,
+  MetricLabel,
+  MetricValue,
+  TagList,
+  PanelTag,
 } from "./HeroStyle";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
-// import ResumePDF from "../../assets/Resume.pdf";
 
 const HeroSection = () => {
-  // const handleResumeClick = () => {
-  //   window.open(ResumePDF, "_blank");
-  // };
-
   return (
     <div id="about">
       <HeroContainer>
@@ -30,7 +36,7 @@ const HeroSection = () => {
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
             <Title>
-              Hi, I am <br /> {Bio.name}
+              Hi, {" "}I am <br /> {Bio.name}
             </Title>
             <TextLoop>
               I am a
@@ -45,14 +51,39 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="display"
-            // onClick={handleResumeClick}
-            >
-              Check Resume
-            </ResumeButton>
+            <CTAGroup>
+              <ResumeButton href={Bio.resume} target="_blank" rel="noreferrer">
+                Check Resume
+              </ResumeButton>
+              <SecondaryButton href="#projects">View Projects</SecondaryButton>
+            </CTAGroup>
           </HeroLeftContainer>
           <HeroRightContainer id="Right">
-            {/* <Img src={HeroImg} alt="hero-image" /> */}
+            <RightPanel>
+              <PanelTop>
+                <StatusBadge>Available for work</StatusBadge>
+              </PanelTop>
+              <MiniCard>
+                <MetricRow>
+                  <MetricLabel>Experience</MetricLabel>
+                  <MetricValue>4+ yrs</MetricValue>
+                </MetricRow>
+                <MetricRow>
+                  <MetricLabel>Projects</MetricLabel>
+                  <MetricValue>20+</MetricValue>
+                </MetricRow>
+                <MetricRow>
+                  <MetricLabel>Focus</MetricLabel>
+                  <MetricValue>UI/UX</MetricValue>
+                </MetricRow>
+              </MiniCard>
+              <TagList>
+                <PanelTag>React</PanelTag>
+                <PanelTag>Next.js</PanelTag>
+                <PanelTag>TypeScript</PanelTag>
+                <PanelTag>Design Systems</PanelTag>
+              </TagList>
+            </RightPanel>
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
