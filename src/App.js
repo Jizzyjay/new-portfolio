@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
+import JsonLd from "./components/Seo/JsonLd";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -36,6 +37,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
+        <JsonLd />
         <Navbar />
         <Body>
           <HeroSection />

@@ -174,7 +174,7 @@ export const PanelTag = styled.span`
   border: 1px solid rgba(139, 92, 246, 0.28);
 `;
 
-export const Title = styled.div`
+export const Title = styled.h1`
   font-weight: 800;
   font-size: clamp(2.7rem, 5vw, 4.6rem);
   color: ${({ theme }) => theme.text_primary};

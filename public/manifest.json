@@ -1,0 +1,16 @@
+{
+  "short_name": "John Ekunola",
+  "name": "John Oluwatosin Ekunola — Frontend Developer",
+  "description": "Portfolio of John Oluwatosin Ekunola (John Ekunola), Frontend Developer.",
+  "icons": [
+    {
+      "src": "john.jpg",
+      "type": "image/jpeg",
+      "sizes": "330x382"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#050816",
+  "background_color": "#050816"
+}

@@ -1,13 +1,17 @@
 export const Bio = {
   name: "John Ekunola",
+  fullName: "John Oluwatosin Ekunola",
+  alternateName: "John Ekunola",
+  jobTitle: "Frontend Developer",
   roles: ["Frontend Developer", "Frontend Engineer", "UI Engineer"],
   description:
     "Results-driven Frontend Developer with expertise in building modern, responsive, and high-performance web applications using React.js, Next.js, TypeScript, JavaScript, HTML, CSS, and Tailwind CSS. I transform complex design requirements into seamless user experiences while maintaining accessibility, scalability, and code quality standards.",
   github: "https://github.com/Jizzyjay",
-  resume:
-    "https://www.canva.com/design/DAGcTOlxU44/DPhZHwJQdAOeTwNMpQRwnA/view?utm_content=DAGcTOlxU44&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h38f0cce985",
+  resume: "/john-oluwatosin-ekunola-resume.pdf",
   linkedin: "https://www.linkedin.com/in/ekunolajohn/",
   mail: "mailto:ekunolajohn@gmail.com",
+  /** Canonical live portfolio (Vercel). */
+  siteUrl: "https://new-portfolio-ochre-eight.vercel.app",
 };
 
 export const skills = [
@@ -58,7 +62,7 @@ export const experiences = [
     img: "",
     role: "Frontend Developer",
     company: "Bertandre Consulting",
-    date: "Till Date",
+    date: "Jan 2026 - Till Date",
     location: "Hybrid, Lagos",
     desc: "Collaborated with product, design, and backend teams to deliver responsive product experiences, maintain scalable frontend architecture, and improve application performance through better state management and reusable UI patterns.",
     skills: ["Next.js", "TypeScript", "Redux", "UI Engineering", "Figma"]
@@ -68,7 +72,7 @@ export const experiences = [
     img: "",
     role: "Frontend Engineer",
     company: "MedFair",
-    date: "Till Date",
+    date: "Apr 2025 - Till Date",
     location: "Remote, Lagos",
     desc: "Converted Figma design mockups into responsive, pixel-perfect interfaces and maintained reusable component libraries to improve design consistency, performance, and delivery speed across the platform.",
     skills: ["Next.js", "TypeScript", "Design Systems", "Responsive UI", "Agile"]

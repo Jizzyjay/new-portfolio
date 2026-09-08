@@ -30,7 +30,7 @@ export const Wrapper = styled.div`
   }
 `;
 
-export const Title = styled.div`
+export const Title = styled.h2`
   font-size: clamp(2.2rem, 4vw, 3.2rem);
   text-align: center;
   font-weight: 700;

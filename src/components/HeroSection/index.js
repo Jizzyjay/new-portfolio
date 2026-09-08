@@ -36,7 +36,7 @@ const HeroSection = () => {
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
             <Title>
-              Hi, {" "}I am <br /> {Bio.name}
+              Hi, I am <br /> {Bio.fullName}
             </Title>
             <TextLoop>
               I am a
@@ -66,7 +66,7 @@ const HeroSection = () => {
               <MiniCard>
                 <MetricRow>
                   <MetricLabel>Experience</MetricLabel>
-                  <MetricValue>4+ yrs</MetricValue>
+                  <MetricValue>3+ yrs</MetricValue>
                 </MetricRow>
                 <MetricRow>
                   <MetricLabel>Projects</MetricLabel>
@@ -74,14 +74,17 @@ const HeroSection = () => {
                 </MetricRow>
                 <MetricRow>
                   <MetricLabel>Focus</MetricLabel>
-                  <MetricValue>UI/UX</MetricValue>
+                  <MetricValue>Frontend Engineering</MetricValue>
                 </MetricRow>
               </MiniCard>
               <TagList>
                 <PanelTag>React</PanelTag>
                 <PanelTag>Next.js</PanelTag>
                 <PanelTag>TypeScript</PanelTag>
-                <PanelTag>Design Systems</PanelTag>
+                <PanelTag>Solid.js</PanelTag>
+                <PanelTag>JavaScript</PanelTag>
+                <PanelTag>Redux Toolkit</PanelTag>
+                <PanelTag>AngularJS</PanelTag>
               </TagList>
             </RightPanel>
           </HeroRightContainer>

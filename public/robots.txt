@@ -1,0 +1,5 @@
+# https://new-portfolio-ochre-eight.vercel.app/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://new-portfolio-ochre-eight.vercel.app/sitemap.xml

@@ -23,10 +23,11 @@ const FooterWrapper = styled.footer`
   color: ${({ theme }) => theme.text_primary};
 `;
 
-const Logo = styled.h1`
+const Logo = styled.p`
   font-weight: 600;
   font-size: 20px;
   color: ${({ theme }) => theme.primary};
+  margin: 0;
 `;
 
 const Nav = styled.nav`
@@ -86,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>John Ekunola</Logo>
+        <Logo>{Bio.alternateName}</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -105,7 +106,9 @@ function Footer() {
         <SocialMediaIcon href={Bio.mail} target="display">
           <MailIcon />
         </SocialMediaIcon>
-        <Copyright>&copy; 2026 John Ekunola. All rights reserved.</Copyright>
+        <Copyright>
+          &copy; 2026 {Bio.fullName}. All rights reserved.
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
