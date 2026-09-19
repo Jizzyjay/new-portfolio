@@ -256,6 +256,15 @@ export const websiteDesigns = [
     tags: ["Real Estate", "PropTech", "Corporate"],
     webapp: "https://www.primquisiterealestate.com/",
   },
+  {
+    id: 4,
+    title: "Dispatch News",
+    description:
+      "A broadsheet-style global news platform powered by NewsAPI — live wire feeds, desk categories, and editorial layouts for world, business, tech, and politics headlines.",
+    image: "/designs/dispatch-news.jpg",
+    tags: ["News", "Dashboard", "API"],
+    webapp: "https://news-kappa-lyart.vercel.app/",
+  },
 ];
 
 export const TimeLineData = [
