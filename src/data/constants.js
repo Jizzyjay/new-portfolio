@@ -228,6 +228,39 @@ export const projects = [
   },
 ];
 
+export const websiteDesigns = [
+  {
+    id: 1,
+    title: "AURA Sanctuaries",
+    description:
+      "A luxury travel and hospitality landing experience for private sanctuaries and bespoke journeys — quiet typography, destination storytelling, and high-end estate showcases across Kyoto, Amalfi, and beyond.",
+    image:
+      "https://image.thum.io/get/width/1200/crop/750/noanimate/https://aura-cyan-tau.vercel.app/",
+    tags: ["Luxury", "Travel", "Landing Page"],
+    webapp: "https://aura-cyan-tau.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Brasa",
+    description:
+      "A Lagos food-delivery brand site built around cravings and speed — menu categories, tonight’s favorites, and a clear kitchen-to-doorstep flow for burgers, pasta, rice, and more.",
+    image:
+      "https://image.thum.io/get/width/1200/crop/750/noanimate/https://brasa-phi.vercel.app/",
+    tags: ["Food Delivery", "E-commerce", "Brand Site"],
+    webapp: "https://brasa-phi.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Primquisite Real Estate",
+    description:
+      "A Lagos property developer and agency site covering premium developments, PropTech estate systems, and project portfolios like Arabella, Crescendo, and Nacre.",
+    image:
+      "https://image.thum.io/get/width/1200/crop/750/noanimate/https://www.primquisiterealestate.com/",
+    tags: ["Real Estate", "PropTech", "Corporate"],
+    webapp: "https://www.primquisiterealestate.com/",
+  },
+];
+
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
   { year: 2018, text: "Worked as a freelance developer" },
