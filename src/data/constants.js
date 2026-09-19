@@ -234,8 +234,7 @@ export const websiteDesigns = [
     title: "AURA Sanctuaries",
     description:
       "A luxury travel and hospitality landing experience for private sanctuaries and bespoke journeys — quiet typography, destination storytelling, and high-end estate showcases across Kyoto, Amalfi, and beyond.",
-    image:
-      "https://image.thum.io/get/width/1200/crop/750/noanimate/https://aura-cyan-tau.vercel.app/",
+    image: "/designs/aura-sanctuaries.jpg",
     tags: ["Luxury", "Travel", "Landing Page"],
     webapp: "https://aura-cyan-tau.vercel.app/",
   },
@@ -244,8 +243,7 @@ export const websiteDesigns = [
     title: "Brasa",
     description:
       "A Lagos food-delivery brand site built around cravings and speed — menu categories, tonight’s favorites, and a clear kitchen-to-doorstep flow for burgers, pasta, rice, and more.",
-    image:
-      "https://image.thum.io/get/width/1200/crop/750/noanimate/https://brasa-phi.vercel.app/",
+    image: "/designs/brasa.jpg",
     tags: ["Food Delivery", "E-commerce", "Brand Site"],
     webapp: "https://brasa-phi.vercel.app/",
   },
@@ -254,8 +252,7 @@ export const websiteDesigns = [
     title: "Primquisite Real Estate",
     description:
       "A Lagos property developer and agency site covering premium developments, PropTech estate systems, and project portfolios like Arabella, Crescendo, and Nacre.",
-    image:
-      "https://image.thum.io/get/width/1200/crop/750/noanimate/https://www.primquisiterealestate.com/",
+    image: "/designs/primquisite.jpg",
     tags: ["Real Estate", "PropTech", "Corporate"],
     webapp: "https://www.primquisiterealestate.com/",
   },
