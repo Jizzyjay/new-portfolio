@@ -265,6 +265,15 @@ export const websiteDesigns = [
     tags: ["News", "Dashboard", "API"],
     webapp: "https://news-kappa-lyart.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Butcha",
+    description:
+      "A premium butcher brand site focused on cut-to-order meats and pickup convenience — featured products, shop locations, and a clear order-online-to-in-store flow.",
+    image: "/designs/butcha.jpg",
+    tags: ["E-commerce", "Food", "Brand Site"],
+    webapp: "https://butcha.vercel.app/",
+  },
 ];
 
 export const TimeLineData = [
